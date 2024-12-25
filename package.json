@@ -1,0 +1,22 @@
+{
+  "name": "io-file",
+  "version": "1.0.0",
+  "description": "simple file utility",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koudela/io-file.git"
+  },
+  "author": "Thomas Koudela",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/koudela/io-file/issues"
+  },
+  "homepage": "https://github.com/koudela/io-file#readme",
+  "dependencies": {
+    "ini-config-loader": "^1.0.1"
+  }
+}
