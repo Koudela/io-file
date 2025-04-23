@@ -51,14 +51,14 @@ const isLogFileMap = { 'all': true, 'file': true }
  * @return {boolean} depends on LOG_TYPE ('all'|'console'|'file'|'')
  */
 function isLogConsole() {
-    return isLogConsoleMap[readJSONConf('io-file', 'LOG_TYPE')] ?? false
+    return isLogConsoleMap[readConf('io-file', 'LOG_TYPE')] ?? false
 }
 
 /**
  * @return {boolean} depends on LOG_TYPE ('all'|'console'|'file'|'')
  */
 function isLogFile() {
-    return isLogFileMap[readJSONConf('io-file', 'LOG_TYPE')] ?? false
+    return isLogFileMap[readConf('io-file', 'LOG_TYPE')] ?? false
 }
 
 /**

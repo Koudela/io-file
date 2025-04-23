@@ -27,8 +27,8 @@ $ tree
 
 ```
 DEFAULT_READ_OPTIONS={"encoding":"utf8"}
-DEFAULT_FILE_OPTIONS={"encoding":"utf8","mode":0o664}
-DEFAULT_DIR_OPTIONS={"recursive":true,"mode":0o775}
+DEFAULT_FILE_OPTIONS={"encoding":"utf8","mode":664}
+DEFAULT_DIR_OPTIONS={"recursive":true,"mode":775}
 LOG_DIR=path/to/your/log/directory
 LOG_TYPE=all
 ERROR_HANDLING=all
